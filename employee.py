@@ -25,4 +25,5 @@ class Employee:
             role (str): The role of the employee.
             salary (float): The salary of the employee.
         """
+        self.name = 
         pass

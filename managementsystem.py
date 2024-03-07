@@ -24,7 +24,9 @@ class ManagementSystem:
         """
         Initialize a ManagementSystem object.
         """
-        pass
+      self.employees = []
+        self.projects = []
+        self.tasks = []
 
     def add_employee(self, employee):
         """
@@ -33,7 +35,8 @@ class ManagementSystem:
         Args:
             employee (Employee): The employee to be added.
         """
-        pass
+        self.employees.append(employee)
+
 
     def remove_employee(self, emp_id):
         """
@@ -42,7 +45,7 @@ class ManagementSystem:
         Args:
             emp_id (str): The ID of the employee to be removed.
         """
-        pass
+        
 
     def add_project(self, project):
         """

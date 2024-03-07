@@ -5,6 +5,8 @@ This module contains classes for managing employees, projects, and tasks in a fi
 """
 
 class Task:
+     def __init__(self, task_id, description, deadline, status, project):
+       
     """
     Class representing a task in the company.
 
@@ -17,6 +19,11 @@ class Task:
     """
 
     def __init__(self, task_id, description, deadline, status, project):
+         self.task_id = task_id
+        self.description = description
+        self.deadline = deadline
+        self.status = status
+        self.project = project
         """
         Initialize a Task object.
 
@@ -27,4 +34,4 @@ class Task:
             status (str): The status of the task.
             project (Project): The project associated with the task.
         """
-        pass
+        
